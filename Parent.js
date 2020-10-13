@@ -18,15 +18,3 @@ function Parent(props) {
 }
 
 export default React.memo(Parent)
-/*/*shouldComponentUpdate(nextProps, nextState) {
-        if (this.props.number === nextProps.number) {
-          return false;
-        } else {
-          return true;
-        }
-      }
-      const[index,setIndex]=useState(0)
-      const onchange=(data)=>{
-          setIndex(data)
-          console.log(data)
-      }*/
